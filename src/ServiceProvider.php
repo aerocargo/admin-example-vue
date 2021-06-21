@@ -11,7 +11,7 @@ class ServiceProvider extends ModuleServiceProvider
     public function assetLinks()
     {
         return [
-            'aerocargo/admin-example-vue' => base_path('modules/aerocargo/admin-example-vue/public'),
+            'aerocargo/admin-example-vue' => __DIR__.'/../public',
         ];
     }
 }
